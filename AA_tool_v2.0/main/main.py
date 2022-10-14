@@ -1,8 +1,10 @@
+import os
 import sys
 from PyQt5 import uic
 from PyQt5.QtWidgets import QMainWindow, QApplication, QLabel, QTabWidget, QLineEdit, QComboBox, QPushButton
 from math import pi
 
+os.chdir(os.path.dirname(__file__))
 
 class AA(QMainWindow):
 
